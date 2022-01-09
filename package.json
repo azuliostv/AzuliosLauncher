@@ -1,0 +1,28 @@
+{
+  "name": "azulios-launcher",
+  "version": "0.0.1",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azuliostv/AzuliosLauncher.git"
+  },
+  "author": "AzuliosTv",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/azuliostv/AzuliosLauncher/issues"
+  },
+  "homepage": "https://github.com/azuliostv/AzuliosLauncher#readme",
+  "devDependencies": {
+    "electron": "^16.0.6",
+    "electron-builder": "^22.14.5"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "custom-electron-titlebar": "^3.2.10",
+    "minecraft-launcher-core": "^3.16.11"
+  }
+}
